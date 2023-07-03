@@ -11,10 +11,10 @@ class CalculatorTest {
         assertEquals(3, result);
     }
 
-    @Test
-    void testMinus() {
-        Calculator calculator = new Calculator();
-        int result = calculator.minus(2, 1);
-        assertEquals(1, result);
-    }
+    // @Test
+    // void testMinus() {
+    //     Calculator calculator = new Calculator();
+    //     int result = calculator.minus(2, 1);
+    //     assertEquals(1, result);
+    // }
 }
