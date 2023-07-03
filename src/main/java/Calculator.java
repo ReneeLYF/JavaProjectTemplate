@@ -28,8 +28,5 @@ public class Calculator implements ICalculator {
         public enum Brightness {
             HIGH, MIDDLE, LOW
         }
-        public void showResult2(int result) {
-            System.out.println("The result2 is: " + result);
-        }
     }
 }
