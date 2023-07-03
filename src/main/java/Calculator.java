@@ -8,6 +8,11 @@ public class Calculator implements ICalculator {
         screen.showResult(result);
         return result;
     }
+    public int delete(int a, int b) {
+        int result = a + b;
+        screen.showResult2(result);
+        return result;
+    }
 
     public static class Screen {
         private Brightness brightness;
@@ -18,6 +23,10 @@ public class Calculator implements ICalculator {
 
         public void showResult(int result) {
             System.out.println("The result is: " + result);
+        }
+
+        public void showResult2(int result) {
+            System.out.println("The result2 is: " + result);
         }
 
         public enum Brightness {
