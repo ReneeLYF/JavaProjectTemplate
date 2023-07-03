@@ -10,7 +10,7 @@ public class Calculator implements ICalculator {
     }
     public int delete(int a, int b) {
         int result = a + b;
-        screen.showResult2(result);
+        screen.showResult(result);
         return result;
     }
 
