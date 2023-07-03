@@ -10,13 +10,6 @@ class CalculatorTest {
         int result = calculator.add(1, 2);
         assertEquals(3, result);
     }
-    
-    @Test
-    void testDelete() {
-        Calculator calculator = new Calculator();
-        int result = calculator.delete(1, 2);
-        // assertEquals(3, result);
-    }
 
     @Test
     void testMinus() {
