@@ -20,6 +20,10 @@ public class Calculator implements ICalculator {
             System.out.println("The result is: " + result);
         }
 
+        public void showResult2(int result) {
+            System.out.println("The result2 is: " + result);
+        }
+
         public enum Brightness {
             HIGH, MIDDLE, LOW
         }
