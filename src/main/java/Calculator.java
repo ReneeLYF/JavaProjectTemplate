@@ -27,58 +27,5 @@ public class Calculator implements ICalculator {
         public enum Brightness {
             HIGH, MIDDLE, LOW
         }
-        public void showResult3(int result) {
-			int a = 0;
-			result = 0 + a;
-            System.out.println("The result3 is: " + result);
-        }
-
-        public void showResult4(int result) {
-			int i = 9;
-			result = 0 + i;
-            System.out.println("The result4 is: " + result);
-        }
-
-        public void showResult5(int result) {
-			int j = 10;
-			result = 0 + j;
-            System.out.println("The result5 is: " + result);
-        }
-	public void showResult6(int result) {
-			int a = 0;
-			result = 0 + a;
-            System.out.println("The result6 is: " + result);
-        }
-
-        public void showResult7(int result) {
-			int i = 9;
-			result = 0 + i;
-            System.out.println("The result7 is: " + result);
-        }
-
-        public void showResult8(int result) {
-			int j = 10;
-			result = 0 + j;
-            System.out.println("The result8 is: " + result);
-        }
-	    
-		
-	public void showResult9(int result) {
-			int a = 0;
-			result = 0 + a;
-            System.out.println("The result9 is: " + result);
-        }
-
-        public void showResult10(int result) {
-			int i = 9;
-			result = 0 + i;
-            System.out.println("The result10 is: " + result);
-        }
-
-        public void showResult11(int result) {
-			int j = 10;
-			result = 0 + j;
-            System.out.println("The result11 is: " + result);
-        }
     }
 }
