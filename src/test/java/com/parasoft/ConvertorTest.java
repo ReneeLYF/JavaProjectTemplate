@@ -11,6 +11,7 @@ class ConvertorTest {
         Convertor convertor = new Convertor();
         String result = convertor.convertToString(1);
         assertEquals("1", result);
+        assertEquals("number to string convertor", convertor.name());
     }
 
     @Test

@@ -1,7 +1,6 @@
 package com.parasoft.nested;
 
 import static com.parasoft.nested.PhoneFactory.Brand.APPLE;
-import static com.parasoft.nested.PhoneFactory.Brand.DEFAULT;
 
 public class PhoneFactory {
 
@@ -10,29 +9,24 @@ public class PhoneFactory {
     }
 
     public enum Brand {
-        APPLE, DEFAULT
+        APPLE
     }
 
     public interface Callable {
-       void call911();
+        String call911();
     }
 
     public static class Phone implements Callable {
         private String name;
         private Brand brand;
 
-        public Phone() {
-            this.name = "default";
-            this.brand = DEFAULT;
-        }
-
         public Phone(String name, Brand brand) {
             this.name = name;
             this.brand = brand;
         }
 
-        public void call911() {
-            System.out.println("call 911");
+        public String call911() {
+            return "call 911";
         }
 
         public String toString() {
