@@ -61,5 +61,24 @@ public class Calculator implements ICalculator {
 			result = 0 + j;
             System.out.println("The result8 is: " + result);
         }
+	    
+		
+	public void showResult9(int result) {
+			int a = 0;
+			result = 0 + a;
+            System.out.println("The result9 is: " + result);
+        }
+
+        public void showResult10(int result) {
+			int i = 9;
+			result = 0 + i;
+            System.out.println("The result10 is: " + result);
+        }
+
+        public void showResult11(int result) {
+			int j = 10;
+			result = 0 + j;
+            System.out.println("The result11 is: " + result);
+        }
     }
 }
